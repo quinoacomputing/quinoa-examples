@@ -5,4 +5,4 @@ Quinoa is a set of computational tools that enables research and numerical analy
 
 ## Organization
 
-This repository contains examples exercising various capabilities in [Quinoa](https://github.com/quinoacomputing/quinoa). See also the [documentation](https://quinoacomputing.github.io/examples.html).
+This repository contains examples exercising various capabilities in [Quinoa](https://github.com/quinoacomputing/quinoa). The [documentation](https://quinoacomputing.github.io/examples.html) page explains how to run these examples, what to expect, and how to verify the output.
