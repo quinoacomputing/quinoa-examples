@@ -1,0 +1,15 @@
+## Cubit Version 15.2
+## Cubit Build 404945
+## Revised 2016-07-13 16:13:26 -0600 (Wed, 13 Jul 2016)
+## Running 05/31/2017 08:55:57 AM
+## Command Options:
+# Shift a unitcube mesh centered on (0, 0, 0) to be centered on (0.5, 0.5, 0.5)
+undo on
+import mesh geometry "unitcube_94K.exo" block all use nodeset sideset feature_angle 135 linear merge
+list volume 1 mesh
+transform mesh output translate 0.5 0.5 0.5
+undo group begin
+set exodus netcdf4 off
+set large exodus file on
+export mesh "unitcube_01_94K.exo" overwrite
+undo group end
