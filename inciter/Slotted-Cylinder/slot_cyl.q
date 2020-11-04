@@ -21,7 +21,7 @@ inciter
     ncomp 1
   end
 
-  plotvar
+  field_output
     interval 100
   end
 
